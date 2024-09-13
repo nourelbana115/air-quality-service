@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "c222989a-548c-42ba-82d8-f3f791234b4e",
+		"name": "Air Quality",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31118011"
+	},
+	"item": [
+		{
+			"name": "get most polluted date time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/air/quality/most-polluted",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"air",
+						"quality",
+						"most-polluted"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get air quality",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/air/quality?lon=2.352222 &lat=48.856613",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"air",
+						"quality"
+					],
+					"query": [
+						{
+							"key": "lon",
+							"value": "2.352222 "
+						},
+						{
+							"key": "lat",
+							"value": "48.856613"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
