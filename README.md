@@ -7,12 +7,8 @@ Node.js, Express.js web server to fetch air quality from IQAIR API, in this proj
 - [Express](https://expressjs.com/en/5x/api.html)
 - [Mongoose](https://mongoosejs.com/)
 
-## Running the app in production mode
-Note: please setup environment variables file so the application work properly i have pushed my env file so you can test it easy
-
-- import ```Air Quality.postman_collection.json``` to postman
 ## Running the Node App in development mode
-
+- import ```Air Quality.postman_collection.json``` to postman
 - set ```.env``` file with environment variables needed
 - API_KEY: the api key of your account at IQAIR
 - MONGO_URI: MongoDB connection string
